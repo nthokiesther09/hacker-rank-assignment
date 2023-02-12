@@ -1,3 +1,12 @@
+# BDD => input: temperature in degrees celsius, output : temperature in degrees celsius, fahrenheit, kelvin
+# pseudocode
+# START
+# 1. get the inputs in degrees celsius and convert temperature in kelvin/ fahrenheit to degrees celsius
+# 2. convert the inputs to degrees celsius => using switch case
+# 3. return the converted temperature
+# 4. END
+
+
 def convert_temp(temperature, input_scale:, output_scale:'celsius')
     return temperature if input_scale == output_scale
    #     conversions to Fahrenheit and Kelvin scale

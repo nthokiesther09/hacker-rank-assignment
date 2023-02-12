@@ -1,3 +1,12 @@
+
+# BDD => input: hash output: TrueClass  or FalseClass
+# pseudocode
+# START
+# 1.accessing the hash elements
+# 2.check if any key in the hash is an interger
+# 3.If true it returns true if false it returns false
+# 4.END
+
 def func_any(hash)
     # Check and return true if any key object within the hash is of the type Integer
     # If not found, return false.
